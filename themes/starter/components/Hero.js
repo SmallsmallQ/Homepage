@@ -69,6 +69,52 @@ export const Hero = props => {
                       </Link>
                     </li>
                   )}
+                 {/* 添加按钮3 */}
+                 {siteConfig('STARTER_HERO_BUTTON_3_TEXT', null, config) && (
+                    <li>
+                      <Link
+                        href={siteConfig(
+                          'STARTER_HERO_BUTTON_3_URL',
+                          null,
+                          config
+                        )}
+                        target='_blank'
+                        className='inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color'
+                        rel='noreferrer'>
+                        {siteConfig('STARTER_HERO_BUTTON_3_TEXT', null, config)}
+                      </Link>
+                    </li>
+                  )}
+                 {/* 添加按钮4 */}
+                 {siteConfig('STARTER_HERO_BUTTON_4_TEXT', null, config) && (
+                    <li>
+                      <Link
+                        href={siteConfig(
+                          'STARTER_HERO_BUTTON_4_URL',
+                          null,
+                          config
+                        )}
+                        target='_blank'
+                        className='flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark'
+                        rel='noreferrer'>
+                        {siteConfig(
+                          'STARTER_HERO_BUTTON_4_ICON',
+                          null,
+                          config
+                        ) && (
+                          <img
+                            className='mr-4'
+                            src={siteConfig(
+                              'STARTER_HERO_BUTTON_4_ICON',
+                              null,
+                              config
+                            )}
+                          />
+                        )}
+                        {siteConfig('STARTER_HERO_BUTTON_4_TEXT', null, config)}
+                      </Link>
+                    </li>
+                  )}
                 </ul>
               </div>
             </div>
