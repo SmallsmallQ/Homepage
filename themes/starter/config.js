@@ -32,7 +32,7 @@ const CONFIG = {
 
   //STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
   //STARTER_NAV_BUTTON_2_URL: '/sign-up',
-/*
+
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '特性', // 特性
@@ -230,9 +230,9 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
     }
   ],
-*/
+
   // 博客文章区块
-  STARTER_BLOG_ENABLE: true, // 首页博文区块开关
+  STARTER_BLOG_ENABLE: false, // 首页博文区块开关
   STARTER_BLOG_TITLE: '我们的博客',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
@@ -246,7 +246,7 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: '我的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国，陕西',
   STARTER_CONTACT_EMAIL_TITLE: '我的联系方式？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'gongyunbo@stu.xjtu.edu.cn',
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/contact-us-lz7hnj', // 基于NoteForm创建，将留言数据存在Notion中
