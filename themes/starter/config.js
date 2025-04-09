@@ -69,10 +69,10 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_TEXT: '了解更多关于我',
   STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '法学',
-  STARTER_ABOUT_TIPS_2: '科技',
-  STARTER_ABOUT_TIPS_3: '创新',
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/myself2.png',
+  STARTER_ABOUT_TIPS_1: '数字法学',
+  STARTER_ABOUT_TIPS_2: '人工智能法学',
+  STARTER_ABOUT_TIPS_3: '前端',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
