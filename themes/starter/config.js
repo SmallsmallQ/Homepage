@@ -61,18 +61,18 @@ const CONFIG = {
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
-  // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+// 首页ABOUT区块
+  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_TITLE: '我是一个非典型法学生',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
-  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
+    '作为一名法学专业学生，我热衷于将法律知识与技术结合，探索法律科技的无限可能。<br /><br />我喜欢分享自己的法律学习笔记、研究成果和生活感悟，希望通过这个网站与志同道合的朋友交流，共同进步。',
+  STARTER_ABOUT_BUTTON_TEXT: '了解更多关于我',
+  STARTER_ABOUT_BUTTON_URL: '/about',
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '法学',
+  STARTER_ABOUT_TIPS_2: '科技',
+  STARTER_ABOUT_TIPS_3: '创新',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
