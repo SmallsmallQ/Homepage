@@ -12,20 +12,19 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '小Q的个人网站', // 主标题
   STARTER_HERO_TITLE_2: '分享法律笔记，记录生活点滴，展示项目成果', // 副标题
 // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '法律笔记', // 第一个按钮
+  STARTER_HERO_BUTTON_1_TEXT: '笔记整理', // 第一个按钮
   STARTER_HERO_BUTTON_1_URL: 'https://docs.smallq.top/', // 链接到法律笔记
-  STARTER_HERO_BUTTON_2_TEXT: '婚姻风险评估系统', // 第二个按钮
-  STARTER_HERO_BUTTON_2_URL: '/assessment', // 链接到你的评估系统
-  STARTER_HERO_BUTTON_3_TEXT: '笔记整理', // 英雄区按钮
-  STARTER_HERO_BUTTON_3_URL:
-    '/law_note', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '关于我', // 第二个按钮
+  STARTER_HERO_BUTTON_2_URL: '/about', // 链接到你的评估系统
+  STARTER_HERO_BUTTON_3_TEXT: '个人简历', // 英雄区按钮
+  STARTER_HERO_BUTTON_3_URL:'https://www.self.so/smallq', // 英雄区按钮
   STARTER_HERO_BUTTON_4_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_4_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_4_URL: 'https://github.com/Smallsmallq', // 英雄区按钮
   STARTER_HERO_BUTTON_4_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
-  //STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero.png', // 产品预览图 ，默认读取public目录下图片
-  //STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
+  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero.png', // 产品预览图 ，默认读取public目录下图片
+  STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
 
   // 顶部右侧导航暗流
   //STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
@@ -33,7 +32,7 @@ const CONFIG = {
 
   //STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
   //STARTER_NAV_BUTTON_2_URL: '/sign-up',
-
+/*
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '特性', // 特性
@@ -231,7 +230,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
     }
   ],
-
+*/
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '我们的博客',
@@ -242,15 +241,15 @@ const CONFIG = {
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
+  STARTER_CONTACT_TITLE: '联系我',
+  STARTER_CONTACT_TEXT: '告诉我您想要联系我的问题',
+  STARTER_CONTACT_LOCATION_TITLE: '我的位置',
+  STARTER_CONTACT_LOCATION_TEXT: '中国，陕西',
+  STARTER_CONTACT_EMAIL_TITLE: '我的联系方式？',
   STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/contact-us-lz7hnj', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -261,7 +260,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -295,53 +294,27 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '一个非典型法学生',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: '关于我',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '官方主页', URL: '/' },
+        { TITLE: '我的简历', URL: 'https://www.self.so/smallq' },
         {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          TITLE: '关于我',
+          URL: '/about'
         }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '主要内容',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
-      ]
-    },
-    {
-      TITLE: 'Notion写作',
-      LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
+          TITLE: '法律笔记分享',
+          URL: 'https://docs.smallq.top/'
         }
       ]
     }
@@ -362,7 +335,7 @@ const CONFIG = {
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
   STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
   STARTER_404_BACK: '回到主页',
-
+/*
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '你还在等待什么呢？',
@@ -373,9 +346,9 @@ const CONFIG = {
   STARTER_CTA_BUTTON_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
   STARTER_CTA_BUTTON_TEXT: '开始体验',
-
+*/
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://docs.smallq.top/', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
