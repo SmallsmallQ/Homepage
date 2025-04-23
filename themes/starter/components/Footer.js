@@ -130,15 +130,24 @@ export const Footer = props => {
                 </div>
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
-                <div className='my-1 flex justify-center md:justify-end'>
-                <p className="text-base text-gray-7">
-                 Developed by
-                 <a
-                 href='https://github.com/Smallsmallq'
-                 rel='nofollow noopner noreferrer'
-                 target='_blank'
-                 className='px-1 text-gray-1 hover:underline'>
-                smallq
+                <div className='my-1 flex flex-col items-center md:items-start'>
+                  <p className="text-base text-gray-7">
+                    Developed by
+                    <a
+                      href='https://github.com/Smallsmallq'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      smallq
+                    </a>
+                  </p>
+                  <p className="text-base text-gray-7">
+                    <a
+                      href='https://beian.miit.gov.cn/'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='hover:underline'>
+                      陕ICP备2025066546号
                     </a>
                   </p>
                 </div>
