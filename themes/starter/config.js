@@ -35,18 +35,18 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
+  STARTER_FEATURE_TITLE: '内容', // 特性
+  STARTER_FEATURE_TEXT_1: '网站主要内容', // 特性
   STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+    '小Q的小站包含个人介绍、学习资料分享、一些实验性的项目，还在不断探索 ', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '个人简历', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '包括个人信息和成就介绍的个人简介', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: '查看详情', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://www.self.so/smallq', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '快捷导航', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '用来跳转各种实用网站的合集', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
@@ -70,9 +70,9 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/myself2.png',
-  STARTER_ABOUT_TIPS_1: '数字法学',
-  STARTER_ABOUT_TIPS_2: '人工智能法学',
-  STARTER_ABOUT_TIPS_3: '前端',
+  STARTER_ABOUT_TIPS_1: '人工智能法学',
+  STARTER_ABOUT_TIPS_2: '神经法学（Neurolaw）',
+  STARTER_ABOUT_TIPS_3: '前端开发',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -314,7 +314,19 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: '法律笔记分享',
-          URL: 'https://docs.smallq.top/'
+          URL: 'https://docs.smallsmallq.com/'
+        },
+        {
+          TITLE: '邮箱系统',
+          URL: 'https://mail.smallsmallq.com/'
+        },
+        {
+          TITLE: 'obsidian笔记',
+          URL: 'https://notes.smallsmallq.com/'
+        },
+        {
+          TITLE: '旧版个人网站',
+          URL: 'https://smallsmallq.github.io/'
         }
       ]
     }
