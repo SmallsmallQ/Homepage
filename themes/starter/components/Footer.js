@@ -130,8 +130,8 @@ export const Footer = props => {
                 </div>
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
-                <div className='my-1 flex flex-col items-center md:items-start'>
-                  <p className="text-base text-gray-7">
+                <div className='my-1 flex flex-wrap items-center justify-center md:justify-end gap-3'>
+                  <p className="text-base text-gray-7 flex items-center">
                     Developed by
                     <a
                       href='https://github.com/Smallsmallq'
@@ -141,6 +141,7 @@ export const Footer = props => {
                       smallq
                     </a>
                   </p>
+                  <span className="text-gray-7 hidden md:inline">|</span>
                   <p className="text-base text-gray-7">
                     <a
                       href='https://beian.miit.gov.cn/'
