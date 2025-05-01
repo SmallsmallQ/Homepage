@@ -70,7 +70,7 @@ const CONFIG = {
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/myself2.png',
   STARTER_ABOUT_TIPS_1: '人工智能法学',
-  STARTER_ABOUT_TIPS_2: '神经法学（Neurolaw）',
+  STARTER_ABOUT_TIPS_2: '神经法学',
   STARTER_ABOUT_TIPS_3: '前端开发',
 
   // 首页价格区块
