@@ -12,15 +12,15 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '小Q的个人网站', // 主标题
   STARTER_HERO_TITLE_2: '分享法律笔记，记录生活点滴，展示项目成果', // 副标题
 // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '笔记整理', // 第一个按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://docs.smallsmallq.com/', // 链接到法律笔记
-  STARTER_HERO_BUTTON_2_TEXT: '关于我', // 第二个按钮
-  STARTER_HERO_BUTTON_2_URL: '/about', // 链接到你的评估系统
-  STARTER_HERO_BUTTON_3_TEXT: '个人简历', // 英雄区按钮
-  STARTER_HERO_BUTTON_3_URL:'https://www.self.so/smallq', // 英雄区按钮
-  STARTER_HERO_BUTTON_4_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_4_URL: 'https://github.com/Smallsmallq', // 英雄区按钮
-  STARTER_HERO_BUTTON_4_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
+  STARTER_HERO_BUTTON_1_TEXT: '学术主页（English）', // 第一个按钮 - 指向 smallsmallq.com
+  STARTER_HERO_BUTTON_1_URL: 'https://smallsmallq.com/',
+  STARTER_HERO_BUTTON_2_TEXT: '资料分享', // 第二个按钮 - 指向 docs.smallsmallq.com
+  STARTER_HERO_BUTTON_2_URL: 'https://docs.smallsmallq.com/',
+  STARTER_HERO_BUTTON_3_TEXT: 'Obsidian笔记', // 第三个按钮 - 指向 notes.smallsmallq.com
+  STARTER_HERO_BUTTON_3_URL: 'https://notes.smallsmallq.com/',
+  STARTER_HERO_BUTTON_4_TEXT: '关于我', // 第四个按钮 - 指向本站的 /about 页面
+  STARTER_HERO_BUTTON_4_URL: '/about',
+  STARTER_HERO_BUTTON_4_ICON: '', // 第四个按钮不需要图标，留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero.png', // 产品预览图 ，默认读取public目录下图片
