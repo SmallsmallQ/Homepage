@@ -12,15 +12,15 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '小Q的个人网站', // 主标题
   STARTER_HERO_TITLE_2: '分享法律笔记，记录生活点滴，展示项目成果', // 副标题
 // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '学术主页（English）', // 第一个按钮 - 指向 smallsmallq.com
-  STARTER_HERO_BUTTON_1_URL: 'https://smallsmallq.com/',
+  STARTER_HERO_BUTTON_1_TEXT: '学术主页', // 第一个按钮 - 指向 smallsmallq.com
+  STARTER_HERO_BUTTON_1_URL: 'https://io.smallsmallq.com/',
   STARTER_HERO_BUTTON_2_TEXT: '资料分享', // 第二个按钮 - 指向 docs.smallsmallq.com
   STARTER_HERO_BUTTON_2_URL: 'https://docs.smallsmallq.com/',
   STARTER_HERO_BUTTON_3_TEXT: 'Obsidian笔记', // 第三个按钮 - 指向 notes.smallsmallq.com
   STARTER_HERO_BUTTON_3_URL: 'https://notes.smallsmallq.com/',
-  STARTER_HERO_BUTTON_4_TEXT: '关于我', // 第四个按钮 - 指向本站的 /about 页面
-  STARTER_HERO_BUTTON_4_URL: '/about',
-  STARTER_HERO_BUTTON_4_ICON: '', // 第四个按钮不需要图标，留空
+  STARTER_HERO_BUTTON_4_TEXT: '在Github上关注我', // 第四个按钮 - 指向 GitHub
+  STARTER_HERO_BUTTON_4_URL: 'https://github.com/Smallsmallq',
+  STARTER_HERO_BUTTON_4_ICON: '/images/starter/github.svg', // 添加 GitHub 图标路径
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero.png', // 产品预览图 ，默认读取public目录下图片
@@ -35,31 +35,30 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '内容', // 特性
-  STARTER_FEATURE_TEXT_1: '网站主要内容', // 特性
+  STARTER_FEATURE_TITLE: '内容', // 特性区块主标题
+  STARTER_FEATURE_TEXT_1: '网站主要内容', // 特性区块描述1
   STARTER_FEATURE_TEXT_2:
-    '小Q的小站包含个人介绍、学习资料分享、一些实验性的项目，还在不断探索 ', // 特性
+    '小Q的小站包含个人介绍、学习资料分享、一些实验性的项目，还在不断探索 ', // 特性区块描述2
 
-  STARTER_FEATURE_1_TITLE_1: '个人简历', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '包括个人信息和成就介绍的个人简介', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '查看详情', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://www.self.so/smallq', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '资料分享', // 特性1 - 标题改为 "资料分享"
+  STARTER_FEATURE_1_TEXT_1: '整理和分享各类学习笔记与研究资料。', // 特性1 - 描述
+  STARTER_FEATURE_1_BUTTON_TEXT: '查看资料', // 特性1 - 按钮文字
+  STARTER_FEATURE_1_BUTTON_URL: 'https://docs.smallsmallq.com/', // 特性1 - 链接到资料分享站
 
-  STARTER_FEATURE_2_TITLE_1: '快捷导航', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '用来跳转各种实用网站的合集', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Obsidian笔记', // 特性2 - 标题改为 "Obsidian笔记"
+  STARTER_FEATURE_2_TEXT_1: '使用Obsidian记录和发布的个人知识库。', // 特性2 - 描述
+  STARTER_FEATURE_2_BUTTON_TEXT: '浏览笔记', // 特性2 - 按钮文字
+  STARTER_FEATURE_2_BUTTON_URL: 'https://notes.smallsmallq.com/', // 特性2 - 链接到Obsidian笔记站
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '邮箱系统', // 特性3 - 标题改为 "邮箱系统"
+  STARTER_FEATURE_3_TEXT_1: '个人专属的域名邮箱服务。', // 特性3 - 描述
+  STARTER_FEATURE_3_BUTTON_TEXT: '访问邮箱', // 特性3 - 按钮文字
+  STARTER_FEATURE_3_BUTTON_URL: 'https://mail.smallsmallq.com/', // 特性3 - 链接到邮箱系统
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '关于我', // 特性4 - 标题改为 "关于我"
+  STARTER_FEATURE_4_TEXT_1: '了解更多关于我的背景、经历和项目。', // 特性4 - 描述
+  STARTER_FEATURE_4_BUTTON_TEXT: '查看详情', // 特性4 - 按钮文字
+  STARTER_FEATURE_4_BUTTON_URL: '/about', // 特性4 - 链接到本站的 /about 页面
 
 // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
