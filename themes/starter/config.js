@@ -70,7 +70,7 @@ const CONFIG = {
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/myself2.png',
   STARTER_ABOUT_TIPS_1: '人工智能法学',
-  STARTER_ABOUT_TIPS_2: '神经法学',
+  STARTER_ABOUT_TIPS_2: 'CS',
   STARTER_ABOUT_TIPS_3: '前端开发',
 
   // 首页价格区块
@@ -301,7 +301,7 @@ const CONFIG = {
       TITLE: '关于我',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/' },
-        { TITLE: '我的简历', URL: 'https://www.self.so/smallq' },
+        { TITLE: '我的简历', URL: 'https://io.smallsmallq.com' },
         {
           TITLE: '关于我',
           URL: '/about'
@@ -324,14 +324,14 @@ const CONFIG = {
           URL: 'https://notes.smallsmallq.com/'
         },
         {
-          TITLE: '旧版个人网站',
+          TITLE: '学术主页',
           URL: 'https://smallsmallq.github.io/'
         }
       ]
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
