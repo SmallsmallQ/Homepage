@@ -16,23 +16,18 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL: 'https://io.smallsmallq.com/',
   STARTER_HERO_BUTTON_2_TEXT: '资料分享', // 第二个按钮 - 指向 docs.smallsmallq.com
   STARTER_HERO_BUTTON_2_URL: 'https://docs.smallsmallq.com/',
-  STARTER_HERO_BUTTON_3_TEXT: 'Obsidian笔记', // 第三个按钮 - 指向 notes.smallsmallq.com
-  STARTER_HERO_BUTTON_3_URL: 'https://notes.smallsmallq.com/',
-  STARTER_HERO_BUTTON_4_TEXT: '在Github上关注我', // 第四个按钮 - 指向 GitHub
-  STARTER_HERO_BUTTON_4_URL: 'https://github.com/Smallsmallq',
-  STARTER_HERO_BUTTON_4_ICON: '/images/starter/github.svg', // 添加 GitHub 图标路径
+  STARTER_HERO_BUTTON_3_TEXT: '在Github上关注我', // 第四个按钮 - 指向 GitHub
+  STARTER_HERO_BUTTON_3_URL: 'https://github.com/Smallsmallq',
+  STARTER_HERO_BUTTON_3_ICON: '/images/starter/github.svg', // 添加 GitHub 图标路径
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero.png', // 产品预览图 ，默认读取public目录下图片
   STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
-
   // 顶部右侧导航暗流
   //STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
   //STARTER_NAV_BUTTON_1_URL: '/sign-in',
-
   //STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
   //STARTER_NAV_BUTTON_2_URL: '/sign-up',
-
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '内容', // 特性区块主标题
@@ -45,31 +40,31 @@ const CONFIG = {
   STARTER_FEATURE_1_BUTTON_TEXT: '查看资料', // 特性1 - 按钮文字
   STARTER_FEATURE_1_BUTTON_URL: 'https://docs.smallsmallq.com/', // 特性1 - 链接到资料分享站
 
-  STARTER_FEATURE_2_TITLE_1: 'Obsidian笔记', // 特性2 - 标题改为 "Obsidian笔记"
-  STARTER_FEATURE_2_TEXT_1: '使用Obsidian记录和发布的个人知识库。', // 特性2 - 描述
-  STARTER_FEATURE_2_BUTTON_TEXT: '浏览笔记', // 特性2 - 按钮文字
-  STARTER_FEATURE_2_BUTTON_URL: 'https://notes.smallsmallq.com/', // 特性2 - 链接到Obsidian笔记站
+  STARTER_FEATURE_2_TITLE_1: '学术简历（英文）', // 特性2 - 标题改为 "Obsidian笔记"
+  STARTER_FEATURE_2_TEXT_1: '基于github pages搭建的个人学术简历', // 特性2 - 描述
+  STARTER_FEATURE_2_BUTTON_TEXT: '进一步了解', // 特性2 - 按钮文字
+  STARTER_FEATURE_2_BUTTON_URL: 'https://io.smallsmallq.com/', // 特性2 - 链接到Obsidian笔记站
 
   STARTER_FEATURE_3_TITLE_1: '邮箱系统', // 特性3 - 标题改为 "邮箱系统"
   STARTER_FEATURE_3_TEXT_1: '个人专属的域名邮箱服务。', // 特性3 - 描述
   STARTER_FEATURE_3_BUTTON_TEXT: '访问邮箱', // 特性3 - 按钮文字
   STARTER_FEATURE_3_BUTTON_URL: 'https://mail.smallsmallq.com/', // 特性3 - 链接到邮箱系统
 
-  STARTER_FEATURE_4_TITLE_1: '关于我', // 特性4 - 标题改为 "关于我"
-  STARTER_FEATURE_4_TEXT_1: '了解更多关于我的背景、经历和项目。', // 特性4 - 描述
+  STARTER_FEATURE_4_TITLE_1: '我的学术活动及项目', // 特性4 - 标题改为 "关于我"
+  STARTER_FEATURE_4_TEXT_1: '了解更多关于我的经历和项目。', // 特性4 - 描述
   STARTER_FEATURE_4_BUTTON_TEXT: '查看详情', // 特性4 - 按钮文字
-  STARTER_FEATURE_4_BUTTON_URL: '/about', // 特性4 - 链接到本站的 /about 页面
+  STARTER_FEATURE_4_BUTTON_URL: 'https://project.smallsmallq.com', // 特性4 - 链接到本站的 /about 页面
 
 // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '我是一个非典型法学生',
   STARTER_ABOUT_TEXT:
-    '作为一名法学专业学生，我热衷于将法律知识与技术结合，探索法律科技的无限可能。<br /><br />我喜欢分享自己的法律学习笔记、研究成果和生活感悟，希望通过这个网站与志同道合的朋友交流，共同进步。',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多关于我',
-  STARTER_ABOUT_BUTTON_URL: '/about',
+    '我叫龚运博，作为一名法学专业学生，我热衷于将法律知识与技术结合，探索法律科技的无限可能。<br /><br />我喜欢分享自己的法律学习笔记、研究成果和生活感悟，希望通过这个网站与志同道合的朋友交流，共同进步。',
+  STARTER_ABOUT_BUTTON_TEXT: '更多关于我',
+  STARTER_ABOUT_BUTTON_URL: 'https://io.smallsmallq.com/', // 关于我的链接
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/myself.png',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/myself2.png',
-  STARTER_ABOUT_TIPS_1: '人工智能法学',
+  STARTER_ABOUT_TIPS_1: '人工智能法',
   STARTER_ABOUT_TIPS_2: 'CS',
   STARTER_ABOUT_TIPS_3: '前端开发',
 
@@ -327,6 +322,34 @@ const CONFIG = {
           TITLE: '学术主页',
           URL: 'https://smallsmallq.github.io/'
         }
+      ],
+            LINK_GROUP: [
+        {
+          TITLE: '法律笔记分享',
+          URL: 'https://docs.smallsmallq.com/'
+        },
+        {
+          TITLE: '邮箱系统',
+          URL: 'https://mail.smallsmallq.com/'
+        },
+        {
+          TITLE: 'obsidian笔记',
+          URL: 'https://notes.smallsmallq.com/'
+        },
+        {
+          TITLE: '学术主页',
+          URL: 'https://smallsmallq.github.io/'
+        }
+      ]
+    },
+    {
+      TITLE: '友情链接',
+      LINK_GROUP: [
+        { TITLE: '西安交通大学', URL: 'https://www.xjtu.edu.cn/' },
+        { TITLE: '西安交通大学法学院', URL: 'https://fxy.xjtu.edu.cn/' },
+        {TITLE: '西安交通大学教务处',URL: 'https://jwc.xjtu.edu.cn/'},
+        { TITLE: '西安交通大学图书馆', URL: 'https://lib.xjtu.edu.cn/' },
+        { TITLE: '崇实辅导', URL: 'https://csxf.online' },
       ]
     }
   ],
