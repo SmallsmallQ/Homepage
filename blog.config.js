@@ -10,7 +10,7 @@ const BLOG = {
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2025, // e.g if leave this empty, current year will be used.
 
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
-  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
+  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 60, // 更新缓存间隔 单位(秒)；调大值以提高性能和减少资源消耗
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'auto', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [20, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
@@ -21,6 +21,11 @@ const BLOG = {
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://i.postimg.cc/zvQ41bSP/logo.png', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '陕ICP备2025066546号', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
+
+  // 性能优化相关配置
+  AVATAR_OPTIMIZE_LEVEL: 3, // 头像图片优化级别，0-不优化，1-最低优化，3-最高优化
+  DISABLE_ANIMATION: false, // 禁用动画效果，提高性能
+  ENABLE_LAZY_LOAD: true, // 启用图片懒加载，提高首屏加载速度
 
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
